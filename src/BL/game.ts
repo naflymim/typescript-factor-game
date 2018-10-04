@@ -1,5 +1,5 @@
-import { getValue } from './utility';
-import { Result } from './result';
+import { getValue } from '../Common/utility';
+import { Result } from '../Interface/result';
 import { Player } from './player';
 import { Scoreboard as ResultPanel } from './scoreboard';
 

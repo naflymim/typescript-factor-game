@@ -1,4 +1,4 @@
-import { Result } from './result';
+import { Result } from '../Interface/result';
 
 export class Scoreboard {
     private results: Result[] = [];
