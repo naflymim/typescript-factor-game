@@ -1,5 +1,5 @@
-import { Player } from './BL/player';
-import { Game } from './BL/game';
+import { Player } from 'player';
+import { Game } from 'game';
 import * as Helpers from './Common/utility';
 
 let newGame: Game;

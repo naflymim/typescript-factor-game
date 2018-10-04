@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var player_1 = require("./BL/player");
-var game_1 = require("./BL/game");
+var player_1 = require("player");
+var game_1 = require("game");
 var Helpers = require("./Common/utility");
 var newGame;
 document.getElementById('startGame').addEventListener('click', function () {

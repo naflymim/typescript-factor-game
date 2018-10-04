@@ -1,7 +1,7 @@
 import { getValue } from '../Common/utility';
 import { Result } from '../Interface/result';
-import { Player } from './player';
-import { Scoreboard as ResultPanel } from './scoreboard';
+import { Player } from 'player';
+import { Scoreboard as ResultPanel } from 'scoreboard';
 
 export class Game {
     private scoreboard: ResultPanel = new ResultPanel();

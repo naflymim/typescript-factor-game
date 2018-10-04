@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var utility_1 = require("../Common/utility");
-var scoreboard_1 = require("./scoreboard");
+var scoreboard_1 = require("scoreboard");
 var Game = (function () {
     function Game(player, problemCount, factor) {
         this.player = player;

@@ -1,10 +1,13 @@
 import { Result } from '../Interface/result';
+import * as _ from 'lodash';
 
 export class Scoreboard {
     private results: Result[] = [];
 
     addResult(newResult: Result): void {
         this.results.push(newResult);
+        let allCaps: string = _.toUpper(newResult.playerName);
+        console.log(allCaps);
     }
 
     updateScoreboard(): void {
