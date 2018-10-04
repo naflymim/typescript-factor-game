@@ -1,25 +1,10 @@
 {
-    "files.autoSave": "afterDelay",    
-
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
-        "**/.DS_Store": true,
-        "**/.gitignore": true,
-        "npm-debug.log": true
-    },
-
-    "editor.fontFamily": "Consolas",
-    "editor.fontSize": 12,
-    "editor.quickSuggestions": true,  
-    "editor.wordBasedSuggestions": true,
-    "editor.selectionHighlight": false,
-    "editor.suggestOnTriggerCharacters": true,
-
-    "window.zoomLevel": 1,
-    
-    "terminal.integrated.fontSize": 12,
-
-    "editor.cursorBlinking": "solid"
+        "**/CVS": true,
+        "**/.DS_Store": true,      
+        "**/*.js.map": true
+    }
 }
